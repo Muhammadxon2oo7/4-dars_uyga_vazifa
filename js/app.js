@@ -155,7 +155,7 @@
 // }else{
 //     console.log(a-1)
 // }
-
+ 
 //13-misol
 
 // let a = Number(prompt("son:"))
@@ -406,3 +406,52 @@
 //     console.log("bizga hali bunday markadagi notebook kelmagan ")
 // }
 
+//ihtiyoriy
+
+
+const allUsers = [
+    {
+        name: "Javohir",
+        age: 16,
+        hobbies: ["saying i don't know", "chess"]
+    },
+    {
+        name: "Akramjon",
+        age: 16,
+        hobbies: ["coding", "english"]
+    },
+    {
+        name: "Azizbek",
+        age: 16,
+        hobbies: ["football", "coding"]
+    },
+    {
+        name: "Javohir",
+        age: 18,
+        hobbies: ["english", "coding"]
+    },
+    {
+        name: "Abubakr",
+        age: 18,
+        hobbies: ["playing cs", "watching youtube videos"]
+    },
+    {
+        name: "Ilhomjon",
+        age: 18,
+        mobile: [
+            {
+                samsung: {
+                    first: "zfold",
+                    second: "ultra"
+                }
+            },
+            {
+                iphone: {
+                    first: "iPhone 13 pro",
+                    second: "iPhone 12"
+                }
+            }
+        ]
+    }
+]
+console.log(allUsers[5].mobile[1].iphone.second)
